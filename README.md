@@ -1,6 +1,31 @@
-# Getting Started with Create React App
+# README
+
+## Methodology
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Box logic
+    rows
+    [000111222]
+    [000111222]
+    [000111222]
+    [333444555]
+    [333444555]
+    [333444555]
+    [666777888]
+    [666777888]
+    [666777888]
+
+    cols
+    [012012012]
+    [345345345]
+    [678678678]
+    [012012012]
+    [345345345]
+    [678678678]
+    [012012012]
+    [345345345]
+    [678678678]
 
 ## Available Scripts
 
