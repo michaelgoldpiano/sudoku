@@ -1,5 +1,13 @@
 # README
 
+## How To Use
+
+In the terminal, navigate to the base directory.  Run the program in the terminal with `npm start`.
+
+In the file `src/App.tsx` you will see an example board loaded into the `Board` component.  You can change out this board for another preset by adjusting the imports.
+
+In the directory `src/boards` you can find example preset sudoku boards.  You can change the values in these to view different errors.
+
 ## Methodology
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -7,6 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 I used mappings to generate row, col, and box based indices, as shown below:
 
 Row-mapped logic:
+
     rows:
     [000000000]
     [111111111]
@@ -30,6 +39,7 @@ Row-mapped logic:
     [012345678]
 
 Col-mapped logic:
+
     rows:
     [012345678]
     [012345678]
@@ -53,6 +63,7 @@ Col-mapped logic:
     [888888888]
 
 Box-mapped logic:
+
     rows:
     [000111222]
     [000111222]
@@ -75,9 +86,15 @@ Box-mapped logic:
     [345345345]
     [678678678]
 
-## Available Scripts
+## Files
 
-In the project directory, you can run:
+`src/boards` contains different preset example boards.
+
+`src/components` contains the TypeScript/React/ChakraUI components that will present on the screen.
+
+`src/types` contains TypeScript types that are used for clarity and convenience throughout the program.
+
+`src/logic` contains code for figuring out where errors in the sudoku program are.
 
 ### `npm start`
 
